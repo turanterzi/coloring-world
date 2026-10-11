@@ -1,0 +1,39 @@
+name: coloring_game
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+4
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  image: ^4.2.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  flutter_colorpicker: ^1.0.3
+  audioplayers: ^6.0.0
+  gal: ^2.3.2
+  share_plus: ^12.0.1
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/sounds/
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
